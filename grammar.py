@@ -245,7 +245,9 @@ def check_grammar(grammar, start_symbol):
             start_symbol=start_symbol)
 
 def exp_string(expansion):
-    """Return the string to be expanded"""
+    """
+    Return the string to be expanded
+    """
     if isinstance(expansion, str):
         return expansion
     return expansion[0]
