@@ -2,3 +2,4 @@ config.py
 proto*/
 __pycache__
 tmp/
+venv/
