@@ -1,0 +1,5 @@
+INJECT_INT64  = ":::INT64:::"
+INJECT_INT32  = ":::INT32:::"
+INJECT_BOOL   = ":::BOOL:::"
+INJECT_STRING = ":::STRING:::"
+INJECT_BYTES  = ":::BYTES:::"

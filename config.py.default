@@ -1,0 +1,20 @@
+proto_dir = 'proto'
+proto_out = 'proto_out'
+
+services = []
+replace = {}
+delete = []
+
+# (url + endpoint, request, .proto file)
+services = [
+  ('http://example.com/test1', 'TestRequest1', f'{proto_dir}/TestRequest.proto'),
+  ('http://example.com/test2', 'TestRequest2', f'{proto_dir}/TestRequest.proto'),
+]
+
+replace = {
+    'token'         : 'To7noisie0ae',
+}
+
+delete = ['test_field1', 'test_field2']
+
+__all__ = ["services", "proto_dir", "proto_out", "replace", "delete"]
