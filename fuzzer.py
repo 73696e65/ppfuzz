@@ -263,8 +263,10 @@ class ProtoFuzzer(Fuzzer):
         return self.expand_node_by_cost(node, max)
 
     def expand_node_min_cost(self, node):
-        """The shortcut expand_node_min_cost() passes min() as the choose 
-        function, which makes it expand nodes at minimum cost."""
+        """
+        The shortcut expand_node_min_cost() passes min() as the choose 
+        function, which makes it expand nodes at minimum cost.
+        """
         if self.log:
             print("Expanding", tree_helper.all_terminals(node), "at minimum cost")
 
