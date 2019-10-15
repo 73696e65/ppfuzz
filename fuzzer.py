@@ -6,12 +6,12 @@ import google.protobuf.text_format as tf
 from functools import lru_cache
 from pprint import pprint
 
-import helper
-import tree_helper
-import grammar
+from lib import helper
+from lib import tree_helper
+from lib import grammar
 
-from inject import Template
-from inject_const import *
+from lib.inject import Template
+from lib.inject_const import *
 from config import replace, delete
 
 INT32_FILE = "fuzzlist/int32.txt"

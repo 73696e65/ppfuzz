@@ -1,11 +1,14 @@
 import subprocess
 import re
 import os.path
+import sys
 
 from os import mkdir
 from importlib import import_module
 
+sys.path.append("..")
 from config import *
+
 
 def get_proto_files():
     """

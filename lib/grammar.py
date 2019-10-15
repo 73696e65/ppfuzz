@@ -3,7 +3,7 @@ import re
 import random
 import sys
 
-from inject_const import *
+from lib.inject_const import *
 from google.protobuf.descriptor import FieldDescriptor as fd
 
 RE_PARENTHESIZED_EXPR = re.compile(r'\([^()]*\)[?+*]')

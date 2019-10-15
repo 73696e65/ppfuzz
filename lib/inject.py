@@ -1,7 +1,7 @@
 import random
 import re
 from string import ascii_letters
-from inject_const import *
+from lib.inject_const import *
 
 class Template():
 

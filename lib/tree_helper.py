@@ -1,7 +1,7 @@
 import re
 import os
 
-from grammar import is_nonterminal, symbol_name
+from lib.grammar import is_nonterminal, symbol_name
 
 def unicode_escape(s, error="backslashreplace"):
     """

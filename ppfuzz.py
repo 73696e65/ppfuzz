@@ -4,7 +4,7 @@ import re
 
 from sys import argv
 
-import helper
+from lib import helper
 from config import *
 from fuzzer import ProtoFuzzer
 
@@ -15,6 +15,6 @@ if __name__ == "__main__":
         exit()
 
     fuzzer = ProtoFuzzer(disp=True, log=True)
-    fuzzer = ProtoFuzzer()
+    # fuzzer = ProtoFuzzer()
     for _ in range(1):
         fuzzer.run()

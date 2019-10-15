@@ -3,3 +3,4 @@ proto*/
 __pycache__
 tmp/
 venv/
+output.*
