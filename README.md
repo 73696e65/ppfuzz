@@ -5,6 +5,7 @@ Python Protocol Buffers Fuzzer, based on https://www.fuzzingbook.org/html/Gramma
 # Installation
 
 ```
+sudo apt install protoc
 virtualenv -p /usr/bin/python3.7 venv
 . venv/bin/activate
 pip install -r requirements.txt
@@ -18,6 +19,7 @@ vim config.py # edit the services, replace and delete variables
 vim fuzzer.py # edit the inject_ methods
 vim ppfuzz.py # edit the number of invocations
 
+./ppfuzz.py -C # generates the proto_out files
 ./ppfuzz.py # fuzzer
 
 ./probe.py # to replay some message
