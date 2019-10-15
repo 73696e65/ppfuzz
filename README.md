@@ -15,11 +15,11 @@ pip install -r requirements.txt
 
 ```
 cp config.py.default config.py
-vim config.py # edit the services, replace and delete variables
-vim fuzzer.py # edit the inject_ methods
+vim config.py # edit the 'services', 'replace' and 'delete' variables
+vim fuzzer.py # edit the 'inject_' methods
 vim ppfuzz.py # edit the number of invocations
 
-./ppfuzz.py -C # generates the proto_out files
+./ppfuzz.py -C # generate the proto_out files
 ./ppfuzz.py # fuzzer
 
 ./probe.py # to replay some message
