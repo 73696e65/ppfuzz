@@ -14,7 +14,7 @@ if __name__ == "__main__":
         helper.pb_compile(helper.get_proto_files(), proto_out)
         exit()
 
-    fuzzer = ProtoFuzzer(disp=True, log=True)
-    # fuzzer = ProtoFuzzer()
+    # fuzzer = ProtoFuzzer(disp=True, log=True)
+    fuzzer = ProtoFuzzer()
     for _ in range(1):
         fuzzer.run()
