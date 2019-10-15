@@ -22,7 +22,7 @@ vim ppfuzz.py # edit the number of invocations
 ./ppfuzz.py -C # generate the proto_out files
 ./ppfuzz.py # fuzzer
 
-./probe.py # to replay some message
+./probe.py # to replay some message, see the usage
 ```
 
 # License
