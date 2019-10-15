@@ -7,7 +7,7 @@ Python Protocol Buffers Fuzzer, based on https://www.fuzzingbook.org/html/Gramma
 ```
 virtualenv -p /usr/bin/python3.7 venv
 . venv/bin/activate
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 # Usage
