@@ -19,7 +19,9 @@ vim config.py # edit the 'services', 'replace' and 'delete' variables
 vim fuzzer.py # edit the 'inject_' methods
 vim ppfuzz.py # edit the number of invocations
 
+mkdir proto # store your .proto files referenced from the config here
 ./ppfuzz.py -C # generate the proto_out files
+
 ./ppfuzz.py # fuzzer
 
 ./probe.py # to replay some message, see the usage
