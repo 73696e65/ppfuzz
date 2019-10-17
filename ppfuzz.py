@@ -15,6 +15,6 @@ if __name__ == "__main__":
         exit()
 
     # fuzzer = ProtoFuzzer(disp=True, log=True)
-    fuzzer = ProtoFuzzer()
+    fuzzer = ProtoFuzzer(min_nonterminals=0, max_nonterminals=40)
     for _ in range(1):
         fuzzer.run()
